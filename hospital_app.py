@@ -64,3 +64,13 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
+with st.form("triage_form"):
+    st.markdown("""
+    <div style="background:#f0f9ff; border:1px solid #bae6fd;">
+        <div style="display:flex; align-items:center;">
+            <span>1</span>
+            <span>What are your main symptoms?</span>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
